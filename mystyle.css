@@ -1,0 +1,85 @@
+body {
+background-color:#D9BB62;
+  }
+  
+  h1 {
+      margin: 70px;
+      border: 10px solid #46788C;
+    color: #46788C;
+    font-size: 200px;
+    text-align: center;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    margin: 40px;;
+  }
+
+  h2{font-family: Verdana, Geneva, Tahoma, sans-serif; color: #BF4136;}
+  div.polaroid {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width:750px;
+    background-color: #F2EADF;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+    margin-bottom: 25px;
+  }
+  
+  div.container {
+    text-align: center;
+    padding: 10px 20px;
+  }
+
+  h3{
+    font-size:80px;
+    text-align: center;
+    color: #BF4136;}
+    
+    div.gallery {
+      border: 1px solid #46788c;
+    }
+    
+    div.gallery:hover {
+      border: 1px solid #46788c;
+    }
+    
+    div.gallery img {
+      width: 100%;
+      height: auto;
+    }
+    
+    div.desc {
+      padding: 15px;
+      text-align: center;
+    }
+    
+    * {
+      box-sizing: border-box;
+    }
+    
+    .responsive {
+      padding: 0 6px;
+      float: left;
+      width: 24.99999%;
+    }
+    
+    @media only screen and (max-width: 700px) {
+      .responsive {
+        width: 49.99999%;
+        margin: 6px 0;
+      }
+    }
+    
+    @media only screen and (max-width: 500px) {
+      .responsive {
+        width: 100%;
+      }
+    }
+    
+    .clearfix:after {
+      content: "";
+      display: table;
+      clear: both}
+
+  h4{
+    text-align:center;
+    font-size: 50px;
+        background-color: #F2EADF;}
